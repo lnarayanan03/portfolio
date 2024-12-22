@@ -2,13 +2,13 @@
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="../../" >
+<html lang="en" data-content_root="./" >
 
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>1.1. Size of the Dataset &#8212; My sample book</title>
+    <title>Normalization &#8212; My sample book</title>
   
   
   
@@ -27,43 +27,42 @@
   </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
-<link href="../../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+  <link href="_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
 
-    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
-    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css?v=a3416100" />
-    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=13237357" />
-    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css?v=4fa983c6" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
   
   <!-- So that users can add custom icons -->
-  <script src="../../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <script src="_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
-<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
 
-    <script src="../../_static/documentation_options.js?v=9eb32ce0"></script>
-    <script src="../../_static/doctools.js?v=9a2dae69"></script>
-    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
-    <script src="../../_static/copybutton.js?v=f281be69"></script>
-    <script src="../../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="../../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script async="async" src="../../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'final_code/eas503/final_project';</script>
-    <link rel="index" title="Index" href="../../genindex.html" />
-    <link rel="search" title="Search" href="../../search.html" />
-    <link rel="prev" title="1. EAS503" href="eas503.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'final_project';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -85,7 +84,7 @@
   <dialog id="pst-search-dialog">
     
 <form class="bd-search d-flex align-items-center"
-      action="../../search.html"
+      action="search.html"
       method="get">
   <i class="fa-solid fa-magnifying-glass"></i>
   <input type="search"
@@ -115,6 +114,8 @@
       
       
       
+        
+      
       <dialog id="pst-primary-sidebar-modal"></dialog>
       <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
         
@@ -134,7 +135,7 @@
     
   
 
-<a class="navbar-brand logo" href="../../intro.html">
+<a class="navbar-brand logo" href="intro.html">
   
   
   
@@ -145,8 +146,8 @@
       
     
     
-    <img src="../../_static/logo.png" class="logo__image only-light" alt="My sample book - Home"/>
-    <img src="../../_static/logo.png" class="logo__image only-dark pst-js-only" alt="My sample book - Home"/>
+    <img src="_static/logo.png" class="logo__image only-light" alt="My sample book - Home"/>
+    <img src="_static/logo.png" class="logo__image only-dark pst-js-only" alt="My sample book - Home"/>
   
   
 </a></div>
@@ -162,14 +163,14 @@
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
-                <a class="reference internal" href="../../intro.html">
+                <a class="reference internal" href="intro.html">
                     Lakshmi Narayanan Ranganatha
                 </a>
             </li>
         </ul>
-        <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="eas503.html">1. EAS503</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">1.1. Size of the Dataset</a></li>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="final_code/eas503/eas503.html">1. EAS503</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="final_code/eas503/final_project.html">1.1. Size of the Dataset</a></li>
 
 
 
@@ -275,7 +276,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Ffinal_code/eas503/final_project.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Ffinal_project.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -305,7 +306,7 @@
       
       
       
-      <li><a href="../../_sources/final_code/eas503/final_project.ipynb" target="_blank"
+      <li><a href="_sources/final_project.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -368,9 +369,7 @@
 <button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
 </button>
-<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</button>
+
 </div></div>
       
     </div>
@@ -381,47 +380,11 @@
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Size of the Dataset</h1>
+    <h1>Normalization</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">1.1. Size of the Dataset</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1">1.2. Step 1</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#normalization">1.3. Normalization</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#checking-the-column-names">1.4. checking the column names</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#acheiving-3nf">1.5. Acheiving 3NF</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#atomic-data">1.6. -atomic data</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#primary-key-primary-key">1.7. -primary key -&gt;  primary key</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#no-dependencies-btw-tables-with-non-primary-keys">1.8. -no dependencies btw tables with non primary keys</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-2">1.9. Step 2</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#making-the-db-into-original-csv-file">1.10. making the db into original csv file</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-3">1.11. step 3</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#clean-up-task">1.12. Clean up task</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#standardscaler-minmaxscaler-functiontransformer">1.13. -&gt;StandardScaler, MinMaxScaler, FunctionTransformer</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">1.14. </a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-eda">1.15. Basic EDA</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#stratification">1.16. Stratification</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#plotting-coorelation-matrix">1.17. Plotting Coorelation Matrix</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-1">1.18. Experiment 1</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-2">1.19. Experiment 2</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-3">1.20. Experiment 3</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-4">1.21. Experiment 4</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-5">1.22. Experiment 5</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-6">1.23. Experiment 6</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-7">1.24. Experiment 7</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-8">1.25. Experiment 8</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#generator-model-py-for-docker-function">1.26. Generator_model.py (for docker function)</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#for-fastapi-code-and-streamlit-app-code">1.27. For fastapi code and streamlit app code</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#please-check-git-hub-link-in-jupyter-book">1.28. please check Git-Hub(link in <em>jupyter book</em>)</a></li>
-</ul>
-
-            </nav>
         </div>
     </div>
 </div>
@@ -454,8 +417,8 @@
 </div>
 </div>
 </div>
-<section class="tex2jax_ignore mathjax_ignore" id="size-of-the-dataset">
-<h1><span class="section-number">1.1. </span>Size of the Dataset<a class="headerlink" href="#size-of-the-dataset" title="Link to this heading">#</a></h1>
+<section class="tex2jax_ignore mathjax_ignore" id="normalization">
+<h1>Normalization<a class="headerlink" href="#normalization" title="Link to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;heart.csv&#39;</span><span class="p">)</span>
@@ -464,17 +427,72 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>14350
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">FileNotFoundError</span><span class="g g-Whitespace">                         </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">5</span><span class="p">],</span> <span class="n">line</span> <span class="mi">1</span>
+<span class="ne">----&gt; </span><span class="mi">1</span> <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;heart.csv&#39;</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">df</span><span class="o">.</span><span class="n">size</span>
+
+<span class="nn">File ~\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py:1026,</span> in <span class="ni">read_csv</span><span class="nt">(filepath_or_buffer, sep, delimiter, header, names, index_col, usecols, dtype, engine, converters, true_values, false_values, skipinitialspace, skiprows, skipfooter, nrows, na_values, keep_default_na, na_filter, verbose, skip_blank_lines, parse_dates, infer_datetime_format, keep_date_col, date_parser, date_format, dayfirst, cache_dates, iterator, chunksize, compression, thousands, decimal, lineterminator, quotechar, quoting, doublequote, escapechar, comment, encoding, encoding_errors, dialect, on_bad_lines, delim_whitespace, low_memory, memory_map, float_precision, storage_options, dtype_backend)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1013</span> <span class="n">kwds_defaults</span> <span class="o">=</span> <span class="n">_refine_defaults_read</span><span class="p">(</span>
+<span class="g g-Whitespace">   </span><span class="mi">1014</span>     <span class="n">dialect</span><span class="p">,</span>
+<span class="g g-Whitespace">   </span><span class="mi">1015</span>     <span class="n">delimiter</span><span class="p">,</span>
+   <span class="p">(</span><span class="o">...</span><span class="p">)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1022</span>     <span class="n">dtype_backend</span><span class="o">=</span><span class="n">dtype_backend</span><span class="p">,</span>
+<span class="g g-Whitespace">   </span><span class="mi">1023</span> <span class="p">)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1024</span> <span class="n">kwds</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">kwds_defaults</span><span class="p">)</span>
+<span class="ne">-&gt; </span><span class="mi">1026</span> <span class="k">return</span> <span class="n">_read</span><span class="p">(</span><span class="n">filepath_or_buffer</span><span class="p">,</span> <span class="n">kwds</span><span class="p">)</span>
+
+<span class="nn">File ~\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py:620,</span> in <span class="ni">_read</span><span class="nt">(filepath_or_buffer, kwds)</span>
+<span class="g g-Whitespace">    </span><span class="mi">617</span> <span class="n">_validate_names</span><span class="p">(</span><span class="n">kwds</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;names&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">))</span>
+<span class="g g-Whitespace">    </span><span class="mi">619</span> <span class="c1"># Create the parser.</span>
+<span class="ne">--&gt; </span><span class="mi">620</span> <span class="n">parser</span> <span class="o">=</span> <span class="n">TextFileReader</span><span class="p">(</span><span class="n">filepath_or_buffer</span><span class="p">,</span> <span class="o">**</span><span class="n">kwds</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">622</span> <span class="k">if</span> <span class="n">chunksize</span> <span class="ow">or</span> <span class="n">iterator</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">623</span>     <span class="k">return</span> <span class="n">parser</span>
+
+<span class="nn">File ~\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py:1620,</span> in <span class="ni">TextFileReader.__init__</span><span class="nt">(self, f, engine, **kwds)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1617</span>     <span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="p">[</span><span class="s2">&quot;has_index_names&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">kwds</span><span class="p">[</span><span class="s2">&quot;has_index_names&quot;</span><span class="p">]</span>
+<span class="g g-Whitespace">   </span><span class="mi">1619</span> <span class="bp">self</span><span class="o">.</span><span class="n">handles</span><span class="p">:</span> <span class="n">IOHandles</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span>
+<span class="ne">-&gt; </span><span class="mi">1620</span> <span class="bp">self</span><span class="o">.</span><span class="n">_engine</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_make_engine</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">engine</span><span class="p">)</span>
+
+<span class="nn">File ~\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py:1880,</span> in <span class="ni">TextFileReader._make_engine</span><span class="nt">(self, f, engine)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1878</span>     <span class="k">if</span> <span class="s2">&quot;b&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">mode</span><span class="p">:</span>
+<span class="g g-Whitespace">   </span><span class="mi">1879</span>         <span class="n">mode</span> <span class="o">+=</span> <span class="s2">&quot;b&quot;</span>
+<span class="ne">-&gt; </span><span class="mi">1880</span> <span class="bp">self</span><span class="o">.</span><span class="n">handles</span> <span class="o">=</span> <span class="n">get_handle</span><span class="p">(</span>
+<span class="g g-Whitespace">   </span><span class="mi">1881</span>     <span class="n">f</span><span class="p">,</span>
+<span class="g g-Whitespace">   </span><span class="mi">1882</span>     <span class="n">mode</span><span class="p">,</span>
+<span class="g g-Whitespace">   </span><span class="mi">1883</span>     <span class="n">encoding</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;encoding&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
+<span class="g g-Whitespace">   </span><span class="mi">1884</span>     <span class="n">compression</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;compression&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
+<span class="g g-Whitespace">   </span><span class="mi">1885</span>     <span class="n">memory_map</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;memory_map&quot;</span><span class="p">,</span> <span class="kc">False</span><span class="p">),</span>
+<span class="g g-Whitespace">   </span><span class="mi">1886</span>     <span class="n">is_text</span><span class="o">=</span><span class="n">is_text</span><span class="p">,</span>
+<span class="g g-Whitespace">   </span><span class="mi">1887</span>     <span class="n">errors</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;encoding_errors&quot;</span><span class="p">,</span> <span class="s2">&quot;strict&quot;</span><span class="p">),</span>
+<span class="g g-Whitespace">   </span><span class="mi">1888</span>     <span class="n">storage_options</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;storage_options&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
+<span class="g g-Whitespace">   </span><span class="mi">1889</span> <span class="p">)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1890</span> <span class="k">assert</span> <span class="bp">self</span><span class="o">.</span><span class="n">handles</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
+<span class="g g-Whitespace">   </span><span class="mi">1891</span> <span class="n">f</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">handles</span><span class="o">.</span><span class="n">handle</span>
+
+<span class="nn">File ~\anaconda3\Lib\site-packages\pandas\io\common.py:873,</span> in <span class="ni">get_handle</span><span class="nt">(path_or_buf, mode, encoding, compression, memory_map, is_text, errors, storage_options)</span>
+<span class="g g-Whitespace">    </span><span class="mi">868</span> <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">handle</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+<span class="g g-Whitespace">    </span><span class="mi">869</span>     <span class="c1"># Check whether the filename is to be opened in binary mode.</span>
+<span class="g g-Whitespace">    </span><span class="mi">870</span>     <span class="c1"># Binary mode does not support &#39;encoding&#39; and &#39;newline&#39;.</span>
+<span class="g g-Whitespace">    </span><span class="mi">871</span>     <span class="k">if</span> <span class="n">ioargs</span><span class="o">.</span><span class="n">encoding</span> <span class="ow">and</span> <span class="s2">&quot;b&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">ioargs</span><span class="o">.</span><span class="n">mode</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">872</span>         <span class="c1"># Encoding</span>
+<span class="ne">--&gt; </span><span class="mi">873</span>         <span class="n">handle</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">874</span>             <span class="n">handle</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">875</span>             <span class="n">ioargs</span><span class="o">.</span><span class="n">mode</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">876</span>             <span class="n">encoding</span><span class="o">=</span><span class="n">ioargs</span><span class="o">.</span><span class="n">encoding</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">877</span>             <span class="n">errors</span><span class="o">=</span><span class="n">errors</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">878</span>             <span class="n">newline</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">879</span>         <span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">880</span>     <span class="k">else</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">881</span>         <span class="c1"># Binary mode</span>
+<span class="g g-Whitespace">    </span><span class="mi">882</span>         <span class="n">handle</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">handle</span><span class="p">,</span> <span class="n">ioargs</span><span class="o">.</span><span class="n">mode</span><span class="p">)</span>
+
+<span class="ne">FileNotFoundError</span>: [Errno 2] No such file or directory: &#39;heart.csv&#39;
 </pre></div>
 </div>
 </div>
 </div>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="step-1">
-<h1><span class="section-number">1.2. </span>Step 1<a class="headerlink" href="#step-1" title="Link to this heading">#</a></h1>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="normalization">
-<h1><span class="section-number">1.3. </span>Normalization<a class="headerlink" href="#normalization" title="Link to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">db_file</span> <span class="o">=</span> <span class="s1">&#39;normalized_heart.db&#39;</span>
@@ -518,9 +536,6 @@
 </div>
 </div>
 </div>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="checking-the-column-names">
-<h1><span class="section-number">1.4. </span>checking the column names<a class="headerlink" href="#checking-the-column-names" title="Link to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
@@ -755,18 +770,6 @@
 <p>1025 rows × 14 columns</p>
 </div></div></div>
 </div>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="acheiving-3nf">
-<h1><span class="section-number">1.5. </span>Acheiving 3NF<a class="headerlink" href="#acheiving-3nf" title="Link to this heading">#</a></h1>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="atomic-data">
-<h1><span class="section-number">1.6. </span>-atomic data<a class="headerlink" href="#atomic-data" title="Link to this heading">#</a></h1>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="primary-key-primary-key">
-<h1><span class="section-number">1.7. </span>-primary key -&gt;  primary key<a class="headerlink" href="#primary-key-primary-key" title="Link to this heading">#</a></h1>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="no-dependencies-btw-tables-with-non-primary-keys">
-<h1><span class="section-number">1.8. </span>-no dependencies btw tables with non primary keys<a class="headerlink" href="#no-dependencies-btw-tables-with-non-primary-keys" title="Link to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># --- Demographics Table ---</span>
@@ -894,12 +897,6 @@
 </div>
 </div>
 </div>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="step-2">
-<h1><span class="section-number">1.9. </span>Step 2<a class="headerlink" href="#step-2" title="Link to this heading">#</a></h1>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="making-the-db-into-original-csv-file">
-<h1><span class="section-number">1.10. </span>making the db into original csv file<a class="headerlink" href="#making-the-db-into-original-csv-file" title="Link to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">sqlite3</span>
@@ -1192,9 +1189,6 @@
 <p>1025 rows × 14 columns</p>
 </div></div></div>
 </div>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="step-3">
-<h1><span class="section-number">1.11. </span>step 3<a class="headerlink" href="#step-3" title="Link to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">!</span>pip<span class="w"> </span>install<span class="w"> </span>ydata_profiling<span class="w"> </span>-q
@@ -24883,18 +24877,6 @@ document.addEventListener(&quot;DOMContentLoaded&quot;, () =&gt; {
 </div>
 </div>
 </div>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="clean-up-task">
-<h1><span class="section-number">1.12. </span>Clean up task<a class="headerlink" href="#clean-up-task" title="Link to this heading">#</a></h1>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="standardscaler-minmaxscaler-functiontransformer">
-<h1><span class="section-number">1.13. </span>-&gt;StandardScaler, MinMaxScaler, FunctionTransformer<a class="headerlink" href="#standardscaler-minmaxscaler-functiontransformer" title="Link to this heading">#</a></h1>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="id1">
-<h1><span class="section-number">1.14. </span><a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="basic-eda">
-<h1><span class="section-number">1.15. </span>Basic EDA<a class="headerlink" href="#basic-eda" title="Link to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">heart_data</span>
@@ -25369,7 +25351,7 @@ memory usage: 112.2 KB
         &lt;Axes: &gt;, &lt;Axes: &gt;]], dtype=object)
 </pre></div>
 </div>
-<img alt="../../_images/42475f0155f2823a100077b10b186b90f41ae2529ca4ebadf97488e374bf5a2c.png" src="../../_images/42475f0155f2823a100077b10b186b90f41ae2529ca4ebadf97488e374bf5a2c.png" />
+<img alt="_images/42475f0155f2823a100077b10b186b90f41ae2529ca4ebadf97488e374bf5a2c.png" src="_images/42475f0155f2823a100077b10b186b90f41ae2529ca4ebadf97488e374bf5a2c.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -25395,12 +25377,9 @@ memory usage: 112.2 KB
 <div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Text(0.5, 1.0, &#39;Distribution of Cholesterol Levels&#39;)
 </pre></div>
 </div>
-<img alt="../../_images/e4b622a68298f073434178e56d63837397a6bc9e3f2b338d3934140ad8394c87.png" src="../../_images/e4b622a68298f073434178e56d63837397a6bc9e3f2b338d3934140ad8394c87.png" />
+<img alt="_images/e4b622a68298f073434178e56d63837397a6bc9e3f2b338d3934140ad8394c87.png" src="_images/e4b622a68298f073434178e56d63837397a6bc9e3f2b338d3934140ad8394c87.png" />
 </div>
 </div>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="stratification">
-<h1><span class="section-number">1.16. </span>Stratification<a class="headerlink" href="#stratification" title="Link to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
@@ -25444,9 +25423,6 @@ Name: count, dtype: float64
 </div>
 </div>
 </div>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="plotting-coorelation-matrix">
-<h1><span class="section-number">1.17. </span>Plotting Coorelation Matrix<a class="headerlink" href="#plotting-coorelation-matrix" title="Link to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
@@ -25518,7 +25494,7 @@ Age       1.000000 -0.103240
 Sex      -0.103240  1.000000  
 </pre></div>
 </div>
-<img alt="../../_images/d5d4551a3f6fd613386dcc6a58c588be4b7228a963098fe42be19d32676813c0.png" src="../../_images/d5d4551a3f6fd613386dcc6a58c588be4b7228a963098fe42be19d32676813c0.png" />
+<img alt="_images/d5d4551a3f6fd613386dcc6a58c588be4b7228a963098fe42be19d32676813c0.png" src="_images/d5d4551a3f6fd613386dcc6a58c588be4b7228a963098fe42be19d32676813c0.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -25807,9 +25783,6 @@ Sex      -0.103240  1.000000
 </table>
 </div></div></div>
 </div>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="experiment-1">
-<h1><span class="section-number">1.18. </span>Experiment 1<a class="headerlink" href="#experiment-1" title="Link to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.compose</span> <span class="kn">import</span> <span class="n">ColumnTransformer</span>
@@ -26675,9 +26648,6 @@ Test Recall: 0.8195
 </div>
 </div>
 </div>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="experiment-2">
-<h1><span class="section-number">1.19. </span>Experiment 2<a class="headerlink" href="#experiment-2" title="Link to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -27356,9 +27326,6 @@ Test F1-Score: 0.8277
 </div>
 </div>
 </div>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="experiment-3">
-<h1><span class="section-number">1.20. </span>Experiment 3<a class="headerlink" href="#experiment-3" title="Link to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -27454,9 +27421,6 @@ CV Std F1-Score: 0.0213
 </div>
 </div>
 </div>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="experiment-4">
-<h1><span class="section-number">1.21. </span>Experiment 4<a class="headerlink" href="#experiment-4" title="Link to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -27566,9 +27530,6 @@ CV Std F1-Score: 0.0134
 </div>
 </div>
 </div>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="experiment-5">
-<h1><span class="section-number">1.22. </span>Experiment 5<a class="headerlink" href="#experiment-5" title="Link to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -27662,7 +27623,7 @@ CV Std F1-Score: 0.0134
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../../_images/34aad972d139afbebe4d5d7b75fc213ef3b909f612179e9347834333594b30c9.png" src="../../_images/34aad972d139afbebe4d5d7b75fc213ef3b909f612179e9347834333594b30c9.png" />
+<img alt="_images/34aad972d139afbebe4d5d7b75fc213ef3b909f612179e9347834333594b30c9.png" src="_images/34aad972d139afbebe4d5d7b75fc213ef3b909f612179e9347834333594b30c9.png" />
 <div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2024/12/20 00:58:29 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.
 </pre></div>
 </div>
@@ -27676,9 +27637,6 @@ CV Std F1-Score: 0.0141
 </div>
 </div>
 </div>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="experiment-6">
-<h1><span class="section-number">1.23. </span>Experiment 6<a class="headerlink" href="#experiment-6" title="Link to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -27791,7 +27749,7 @@ C:\Users\rlnk4\anaconda3\Lib\site-packages\sklearn\cluster\_kmeans.py:1446: User
   warnings.warn(
 </pre></div>
 </div>
-<img alt="../../_images/0f696b66dca8ada3c7eb4c2f1bb3d8b1f9a19d85805fedaf00f6ed03f4044fdf.png" src="../../_images/0f696b66dca8ada3c7eb4c2f1bb3d8b1f9a19d85805fedaf00f6ed03f4044fdf.png" />
+<img alt="_images/0f696b66dca8ada3c7eb4c2f1bb3d8b1f9a19d85805fedaf00f6ed03f4044fdf.png" src="_images/0f696b66dca8ada3c7eb4c2f1bb3d8b1f9a19d85805fedaf00f6ed03f4044fdf.png" />
 <div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>C:\Users\rlnk4\anaconda3\Lib\site-packages\sklearn\cluster\_kmeans.py:1446: UserWarning: KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=4.
   warnings.warn(
 2024/12/20 00:58:45 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.
@@ -27918,7 +27876,7 @@ C:\Users\rlnk4\anaconda3\Lib\site-packages\sklearn\cluster\_kmeans.py:1446: User
   warnings.warn(
 </pre></div>
 </div>
-<img alt="../../_images/0f696b66dca8ada3c7eb4c2f1bb3d8b1f9a19d85805fedaf00f6ed03f4044fdf.png" src="../../_images/0f696b66dca8ada3c7eb4c2f1bb3d8b1f9a19d85805fedaf00f6ed03f4044fdf.png" />
+<img alt="_images/0f696b66dca8ada3c7eb4c2f1bb3d8b1f9a19d85805fedaf00f6ed03f4044fdf.png" src="_images/0f696b66dca8ada3c7eb4c2f1bb3d8b1f9a19d85805fedaf00f6ed03f4044fdf.png" />
 <div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>C:\Users\rlnk4\anaconda3\Lib\site-packages\sklearn\cluster\_kmeans.py:1446: UserWarning: KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=4.
   warnings.warn(
 2024/12/20 00:59:01 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.
@@ -27933,9 +27891,6 @@ CV Std F1-Score: 0.0080
 </div>
 </div>
 </div>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="experiment-7">
-<h1><span class="section-number">1.24. </span>Experiment 7<a class="headerlink" href="#experiment-7" title="Link to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -28019,9 +27974,6 @@ CV Std F1-Score: 0.0132
 </div>
 </div>
 </div>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="experiment-8">
-<h1><span class="section-number">1.25. </span>Experiment 8<a class="headerlink" href="#experiment-8" title="Link to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
@@ -28091,7 +28043,7 @@ CV Std F1-Score: 0.0132
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../../_images/e4f5cde3cb5579e53d064905ad5f0947238d502833e6b58fc4003ba7bef3676a.png" src="../../_images/e4f5cde3cb5579e53d064905ad5f0947238d502833e6b58fc4003ba7bef3676a.png" />
+<img alt="_images/e4f5cde3cb5579e53d064905ad5f0947238d502833e6b58fc4003ba7bef3676a.png" src="_images/e4f5cde3cb5579e53d064905ad5f0947238d502833e6b58fc4003ba7bef3676a.png" />
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Best Model: RandomForestClassifier with CV Mean F1-Score: 0.9622
 </pre></div>
 </div>
@@ -29667,9 +29619,6 @@ Best model (gb) saved as &#39;best_model.pkl&#39;
 </div>
 </div>
 </div>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="generator-model-py-for-docker-function">
-<h1><span class="section-number">1.26. </span>Generator_model.py (for docker function)<a class="headerlink" href="#generator-model-py-for-docker-function" title="Link to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.compose</span> <span class="kn">import</span> <span class="n">make_column_transformer</span><span class="p">,</span> <span class="n">make_column_selector</span>
@@ -30311,12 +30260,6 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 </div>
 </div>
 </section>
-<section class="tex2jax_ignore mathjax_ignore" id="for-fastapi-code-and-streamlit-app-code">
-<h1><span class="section-number">1.27. </span>For fastapi code and streamlit app code<a class="headerlink" href="#for-fastapi-code-and-streamlit-app-code" title="Link to this heading">#</a></h1>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="please-check-git-hub-link-in-jupyter-book">
-<h1><span class="section-number">1.28. </span>please check Git-Hub(link in <em>jupyter book</em>)<a class="headerlink" href="#please-check-git-hub-link-in-jupyter-book" title="Link to this heading">#</a></h1>
-</section>
 
     <script type="text/x-thebe-config">
     {
@@ -30331,7 +30274,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
         },
         kernelOptions: {
             name: "python3",
-            path: "./final_code\eas503"
+            path: "./."
         },
         predefinedOutput: true
     }
@@ -30348,65 +30291,12 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
-    <a class="left-prev"
-       href="eas503.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title"><span class="section-number">1. </span>EAS503</p>
-      </div>
-    </a>
 </div>
                 </footer>
               
             </div>
             
             
-              
-                <dialog id="pst-secondary-sidebar-modal"></dialog>
-                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">1.1. Size of the Dataset</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1">1.2. Step 1</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#normalization">1.3. Normalization</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#checking-the-column-names">1.4. checking the column names</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#acheiving-3nf">1.5. Acheiving 3NF</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#atomic-data">1.6. -atomic data</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#primary-key-primary-key">1.7. -primary key -&gt;  primary key</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#no-dependencies-btw-tables-with-non-primary-keys">1.8. -no dependencies btw tables with non primary keys</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-2">1.9. Step 2</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#making-the-db-into-original-csv-file">1.10. making the db into original csv file</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-3">1.11. step 3</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#clean-up-task">1.12. Clean up task</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#standardscaler-minmaxscaler-functiontransformer">1.13. -&gt;StandardScaler, MinMaxScaler, FunctionTransformer</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">1.14. </a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-eda">1.15. Basic EDA</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#stratification">1.16. Stratification</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#plotting-coorelation-matrix">1.17. Plotting Coorelation Matrix</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-1">1.18. Experiment 1</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-2">1.19. Experiment 2</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-3">1.20. Experiment 3</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-4">1.21. Experiment 4</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-5">1.22. Experiment 5</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-6">1.23. Experiment 6</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-7">1.24. Experiment 7</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-8">1.25. Experiment 8</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#generator-model-py-for-docker-function">1.26. Generator_model.py (for docker function)</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#for-fastapi-code-and-streamlit-app-code">1.27. For fastapi code and streamlit app code</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#please-check-git-hub-link-in-jupyter-book">1.28. please check Git-Hub(link in <em>jupyter book</em>)</a></li>
-</ul>
-
-  </nav></div>
-
-</div></div>
               
             
           </div>
@@ -30451,8 +30341,8 @@ By The Jupyter Book Community
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script defer src="../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
-<script defer src="../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+  <script defer src="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
 
   <footer class="bd-footer">
   </footer>
